@@ -14,3 +14,6 @@ public interface ApiDocumentUtils {
         return preprocessResponse(prettyPrint());
     }
 }
+
+//preprocessRequest(prettyPrint()) 는 문서에 표시되는 JSON 포맷의 request body를 예쁘게 표현해 줍니다.
+//preprocessResponse(prettyPrint()) 는 문서에 표시되는 JSON 포맷의 response body를 예쁘게 표현해 줍니다.
